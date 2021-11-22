@@ -1,0 +1,178 @@
+.background {
+  text-align: center;
+  min-height: 50vh;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.div-top-mark{
+  background-color: #053163;
+  padding-top: 2.5vmin;
+  padding-bottom: 0.1vmin;
+}
+
+.div-top-mark h1{
+  font-family: "Exo 2";
+  font-size: 42pt;
+  padding-top: 4vmin;
+  color: #ffffff;
+}
+
+.div-top-mark h2{
+  font-family: "Exo 2";
+  font-size: 24pt;
+  color: #dddddd;
+}
+
+
+
+/*
+.logo {
+  height: 35vmin;
+  pointer-events: none;
+}
+*/
+
+.div-middle-pic{
+  background-color: #eb9b9b;
+  display: flex;
+  flex-direction:row;
+  justify-content:baseline;
+  font-family: "Exo 2";
+  font-size: 20pt;
+  color: rgba(255, 255, 255, 0.979);
+  height: 450px;
+  
+}
+
+.div-mid-img{
+  padding-left: px;
+  height: 450px;
+  background-color: #900f0f;
+
+}
+
+.div-mid-img img{
+  height: 450px;
+}
+
+.div-mid-text{
+  background-color: #053163;
+  font-family: "exo 2";
+  width: 100%;
+  text-align: justify;
+  text-justify:inter-word;
+}
+.div-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.p-common{
+  padding: 15px;
+  background-color: rgba(238, 124, 124, 0.472);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  border-radius: 10px;
+  font-family: "Exo 2";
+}
+.ref {
+  padding: 15px;
+  background-color: rgba(238, 124, 124, 0.472);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  border-radius: 10px;
+  font-family: "Exo 2";
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5vmin;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.outer {
+  background-color: #900f0f;
+  width: 220px;
+  height: 220px;
+  margin: 10px auto;
+  position:relative;
+  border-radius: 110px;
+  border: solid 1px #ffffff;
+}
+.mask {
+  position:absolute;
+  top: 55px;
+  width: 220px;
+  height: 110px;
+  overflow: hidden;
+	/* Firefox */
+	-moz-transition: all 0.6s ease;
+	/* WebKit */
+	-webkit-transition: all 0.6s ease;
+	/* Opera */
+	-o-transition: all 0.6s ease;
+	/* Standard */
+	transition: all 0.6s ease;
+}
+.outer:hover .mask {
+transform:rotate(270deg);
+-ms-transform:rotate(270deg); /* IE 9 */
+-webkit-transform:rotate(270deg); 
+height: 220px;
+  top: 0;
+}
+.ring a{
+  margin: 50%;
+}
+.ring {
+  position: absolute;
+  top:-55px;
+  width: 200px;
+  height: 200px;
+  border: solid 10px #ffffff;
+  border-radius: 120px;
+
+	/* Firefox */
+	-moz-transition: all 0.6s ease;
+	/* WebKit */
+	-webkit-transition: all 0.6s ease;
+	/* Opera */
+	-o-transition: all 0.6s ease;
+	/* Standard */
+	transition: all 0.6s ease;
+}
+
+.outer:hover .ring {
+  top: 0px;
+  background-color: #410202;
+  background-image: url(http://pngimg.com/uploads/attention/attention_PNG61.png);
+  background-size: cover;
+}

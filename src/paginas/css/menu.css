@@ -1,0 +1,30 @@
+
+.logoMenu {
+  height: 2vmin;
+  padding-left: 1%;
+  padding-top: 15px;
+  pointer-events: none;
+}
+
+#menu ul {
+  padding:0px;
+  padding-bottom: 1vmin;
+  margin:0px;
+  background-color:#053163;
+  list-style:none;
+  text-align: right;
+}
+#menu ul li { display: inline; }
+
+#menu ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+
+  /* visual do link */
+  background-color:#053163;
+  color: #eee4e4;
+  text-decoration: none;
+  border-bottom:3px solid #053163;
+  font-family: "exo 2";
+  
+}

@@ -1,0 +1,41 @@
+.background {
+  text-align: center;
+  min-height: 50vh;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.side-menu{
+  background-color: #5F93E7;
+  height: 80vh;
+  width: fit-content;
+  padding: 0px 30px;
+  font-family: 'exo 2';
+}
+
+.cont-principal-cons{
+  display: flex;
+  flex-direction: row;
+}
+.cont-cons-l{
+  /* background-color: blueviolet;
+  width: 100%;
+  padding: 35rem 10px 0;
+  align-items: center; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn-dark{
+  display: flex;
+  align-items: center;
+  margin-left: 45%;
+  margin-bottom: 5px;
+} 
+
+
